@@ -15,4 +15,39 @@ I completed a phishing investigation using TryHackMe's Phishing Unfolding simula
 - Analyzed phishing emails,checking sender domains,URLs,malicious links and recipient activity via Splunk logs.  
 - Classified alerts as True Positive or False Positive based on investigation results.  
 - Created case reports with detailed evidence,reasoning my True/False positives and recommended remediation actions.  
-- Proposed security procedures such as blocking malicious domains(firewall rules) and educating employees on phishing risks.  
+- Proposed security procedures such as blocking malicious domains(firewall rules) and educating employees on phishing risks.
+
+---
+
+## 📸 Screenshots
+
+
+
+
+---
+
+## 🛠️ Tools & Technologies
+- Splunk:for log analysis and alert investigation  
+- SOC Simulator dashboard for alerts and severity levels
+   
+---
+
+## 🧠 Insights & Lessons Learned
+
+- Practiced investigating phishing emails in a real-world simulation.  
+- Reinforced my knowledge on using Splunk to query for IPs,URLs and other useful events that helped me unsterstand more about my alerts.  
+- Gained more experience in classifying alerts as True Positive or False Positive with detailed documenting findings and creating case reports for to help my .  
+- Gained a better understanding of proactive defenses:need of blocking malicious domains,educating users and responding quickly to alerts based of coruse on their sevirty level.
+
+---
+
+## 🔒 Copyright Notice
+All content and visuals in this repository are original and may not be reused without permission.
+
+---
+
+## 🙋‍♂️ Rakip
+Cyber Security Professional
+
+---
+

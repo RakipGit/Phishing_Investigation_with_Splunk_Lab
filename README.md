@@ -45,7 +45,7 @@ Credits:Cyber Press
 ![Alert1Report](images/1alert/Alert1Report.png)
 
 5)Next,it was time to move on to the phishing alerts. The first one involved an email that was flagged because it contained a external link.
-  In this case we can see the sender that looks legitimate as a HR member of THM platform (onboarding@hrconnex.thm) sending the recipient (j.garcia@thetrydaily.thm) an email so he can complete he THM email.
+  In this case we can see the sender that looks legitimate as a HR member of THM platform (onboarding(@)hrconnex.thm) sending the recipient (j.garcia(@)thetrydaily.thm) an email so he can complete he THM email.
 ![Alert2](images/2alert/Alert2.png)
 
 6)To investigate, I ran a query in Splunk("j.garcia(@)thetrydaily.thm")to determine how many emails were sent and discovered that two identical emails with the same link were sent within a 15-minute gap.
@@ -55,6 +55,20 @@ Credits:Cyber Press
 7)Based on the investigation,both the URL and the sender domain appear legitimate and are not flagged in any threat intelligence sources that I searched online.Therefore,I decided to classify this alert as a False postive.
 ![Alert2Report](images/2alert/Alert2Report.png)
 
+8)As soon as I took ownership of my next alert,I understood from the beginning that something was way off.Just by looking at the sender domain(m1crosoftsupport.co),it was clear that this was a phishing attempt trying to     impersonate Microsoft.
+![Alert3](images/3alert/Alert3.png)
+
+9)So,the first and very important step was to check if the recipient clicked the phishing link.
+![Alert3Splunk](images/3alert/Alert3Splunk.png)
+
+10)Splunk logs showed no other events, meaning the user did not interact with the link and thats a good sign because it means that he and the system has not been compromised.
+  So,this alert is clearly a True positive that requires escalation.Basically inform the recipient not to click any links from this sender and most important block the suspicious domain with a firewall rule to also         prevent future access.
+  ![Alert3Reort](images/3alert/Alert3Report.png)
+
+11)
+
+
+  
 
 )Results
 ![Result1](images/more/Results.png)

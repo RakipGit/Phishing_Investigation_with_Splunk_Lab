@@ -36,7 +36,7 @@ Credits:Cyber Press
 
 )Results
 ![Result1](images/more/Results.png)
-![Result2](images/more/Results(2).png)
+![Result2](images/more/Results2.png)
 
 
 

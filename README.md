@@ -22,16 +22,21 @@ I completed a phishing investigation using TryHackMe's Phishing Unfolding simula
 ## 📸 Screenshots
 
 Credits:Cyber Press
-![Dashboard](images/more/cyberpress.jpg)
+![Start](images/more/cyberpress.jpg)
 
 
 <details>
 <summary>🔎 View Full Lab Walkthrough (Screenshots)</summary>
 
+1)My SOC Dashboard with the alerts I have to handle 
+![Dashboard](images/more/Dashboard.png)
 
 
 
 
+)Results
+![Result1](images/more/Results1.png)
+![Result2](images/more/Results2.png)
 
 
 

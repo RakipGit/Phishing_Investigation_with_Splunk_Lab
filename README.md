@@ -28,15 +28,19 @@ Credits:Cyber Press
 <details>
 <summary>🔎 View Full Lab Walkthrough (Screenshots)</summary>
 
-1)SOC Dashboard with the alerts I have to handle 
+1)SOC Dashboard with the alerts I have to handle.
 ![Dashboard](images/more/Dashboard.png)
 
 2)Taking ownership of my first alert (firewall) that has the highest sevirty score out of all the alerts.
-  This alert indicated that a user attempted to access a specific URL, but the connection was blocked.In most cases,this happens because the firewall already has rules in place to prevent access to known malicious or        suspicious domains.
+  This alert indicated that a user attempted to access a specific URL,but the connection was blocked.In most cases,this happens because the firewall already has rules in place to prevent access to known malicious or         suspicious domains.
 ![Ownership](images/1alert/Alert1.png)
 
-3)I wanted to dive into this alert using Splunk to see if there was any other activity related to that specific URL or the source host.
+3)I wanted to dive into this alert using Splunk to see if there was any other activity related to that specific URL or the source host.Using this query: index=* 10.20.2.17 OR "http://bit.ly/3sHkX3da12340" ,that basically    shows all the events related to the source IP and the suspicious shortened (bit.ly) URL.
   From the Splunk results I found that the firewall successfully blocked the malicious URL, and the attempt was isolated meaning no other hosts accessed it, and no further suspicious activity was observed.
+  ![Alert1Splunk](images/1alert/Alert1Splunk.png)
+
+4)With this information in my hands I was ready to write my case report.
+  ![Alert1Report](images/1alert/Alert1Report.png)
 
 
 

@@ -21,6 +21,20 @@ I completed a phishing investigation using TryHackMe's Phishing Unfolding simula
 
 ## 📸 Screenshots
 
+![Dashboard](images/more/Dashboard.png)
+
+
+<details>
+<summary>🔎 View Full Lab Walkthrough (Screenshots)</summary>
+
+
+
+
+
+
+
+
+</details>
 
 
 

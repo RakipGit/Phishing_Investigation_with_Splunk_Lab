@@ -21,7 +21,8 @@ I completed a phishing investigation using TryHackMe's Phishing Unfolding simula
 
 ## 📸 Screenshots
 
-![Dashboard](images/more/Dashboard.png)
+Credits:Cyber Press
+![Dashboard](images/more/cyberpress.png)
 
 
 <details>

@@ -48,7 +48,7 @@ Credits:Cyber Press
   In this case we can see the sender that looks legitimate as a HR member of THM platform (onboarding@hrconnex.thm) sending the recipient (j.garcia@thetrydaily.thm) an email so he can complete he THM email.
 ![Alert2](images/2alert/Alert2.png)
 
-6)To investigate, I ran a query in Splunk("j.garcia@thetrydaily.thm.")to determine how many emails were sent and discovered that two identical emails with the same link were sent within a 15-minute gap.
+6)To investigate, I ran a query in Splunk("j.garcia(@)thetrydaily.thm")to determine how many emails were sent and discovered that two identical emails with the same link were sent within a 15-minute gap.
   Next,I checked whether the recipient clicked on the link.The events show that the recipient did not click the link.
 ![Alert2Splunk](images/2alert/Alert2Splunk.png)
 

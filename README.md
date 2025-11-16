@@ -31,6 +31,11 @@ Credits:Cyber Press
 1)My SOC Dashboard with the alerts I have to handle 
 ![Dashboard](images/more/Dashboard.png)
 
+2)Taking ownership of my first alert(firewall) that has the highest sevirty out of all the alerts
+![Ownership](images/alert1/Alert1.png)
+
+3)
+
 
 
 

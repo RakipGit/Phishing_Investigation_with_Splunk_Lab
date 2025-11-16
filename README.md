@@ -65,12 +65,17 @@ Credits:Cyber Press
   So,this alert is clearly a True positive that requires escalation.Basically inform the recipient not to click any links from this sender and most important block the suspicious domain with a firewall rule to also         prevent future access.
   ![Alert3Reort](images/3alert/Alert3Report.png)
 
-11)
+11)Into my last alert I looked through the details and the a lot of things seemed off.Firstly,the name of the sender domain (urgents@amazon.biz) is not a legitimate one.Secondly,it creates urgency("package will be returned within 48 hours"), and lastly uses a shortened link (bit.ly) to mask the real destination.
+ ![Alert4](images/4alert/Alert4.png)
 
+12)It was time to do some investigation with the help of Splunk to find out if the recipient clicked into that 100% malicious link.
+The results showed me that the recipient has not clicked the suspicious link.That means that no immediate compromise occurred.
+ ![Alert4Splunk](images/4alert/Alert4Splunk.png)
 
-  
+ 13)Obviously this alert is also a True positive that needs further escalation.We should block the suspicious domain and URL and inform the recipient to not click any links from this sender.
+ ![Alert4Report](images/4alert/Alert4Report.png)
 
-)Results
+ 14)We are safe…until the next alert 
 ![Result1](images/more/Results.png)
 ![Result2](images/more/Results2.png)
 

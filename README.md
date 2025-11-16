@@ -32,7 +32,7 @@ Credits:Cyber Press
 ![Dashboard](images/more/Dashboard.png)
 
 2)Taking ownership of my first alert(firewall) that has the highest sevirty out of all the alerts
-![Ownership](images/alert1/Alert1.png)
+![Ownership](images/1alert/Alert1.png)
 
 3)
 

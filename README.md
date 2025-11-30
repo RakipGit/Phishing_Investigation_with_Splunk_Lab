@@ -1,15 +1,15 @@
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 
-## Phishing Investigation with Splunk 🕵️‍♂️
+## Phishing Investigation with Splunk 
 A hands-on lab simulation on TryHackMe platform,analyzing phishing alerts,investigating suspicious emails and determining true or false positives with case reports for each one of them to secure the system environment.
 
 ---
 
-## 💡 Project Summary
+##  Project Summary
 I completed a phishing investigation using TryHackMe's Phishing Unfolding simulation room.I analyzed phishing alerts using Splunk,determined whether incidents were true or false positives and documented findings in clear case reports.This lab reinforced my skills for identifying,investigating and responding to phishing attacks.
 
 ---
-## ✅ What I Did
+##  What I Did
 - Reviewed alerts in a SOC simulation dashboard (5 total: 1 high-severity firewall alert,4 medium-severity phishing alerts).  
 - Investigated a high sevirity firewall alert to confirm blocked malicious activity and documented my findings.  
 - Analyzed phishing emails,checking sender domains,URLs,malicious links and recipient activity via Splunk logs.  
@@ -19,7 +19,7 @@ I completed a phishing investigation using TryHackMe's Phishing Unfolding simula
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 Credits:Cyber Press
 ![Start](images/more/cyberpress.jpg)
@@ -86,13 +86,13 @@ The results showed me that the recipient has not clicked the suspicious link.Tha
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - Splunk:for log analysis and alert investigation  
 - SOC Simulator dashboard for alerts and severity levels
    
 ---
 
-## 🧠 Insights & Lessons Learned
+##  Insights & Lessons Learned
 
 - Practiced investigating phishing emails in a real-world simulation.  
 - Reinforced my knowledge on using Splunk to query for IPs,URLs and other useful events that helped me unsterstand more about my alerts.  
@@ -101,12 +101,12 @@ The results showed me that the recipient has not clicked the suspicious link.Tha
 
 ---
 
-## 🔒 Copyright Notice
+##  Copyright Notice
 All content and visuals in this repository are original and may not be reused without permission.
 
 ---
 
-## 🙋‍♂️ Rakip
+##  Rakip
 Cyber Security Professional
 
 ---

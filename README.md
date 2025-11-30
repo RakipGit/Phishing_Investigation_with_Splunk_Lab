@@ -107,7 +107,8 @@ All content and visuals in this repository are original and may not be reused wi
 ---
 
 ##  Rakip
-Cyber Security Professional
+
+ICT Engineering | Cybersecurity & Network Security
 
 ---
 
